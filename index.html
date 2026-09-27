@@ -1,0 +1,1522 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Md. Aatir Usmani | BBA in International Business | Operations & Management</title>
+  <meta name="description" content="Personal portfolio of Md. Aatir Usmani — BBA graduate in International Business specializing in business operations, market research, logistics, and management.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       Fixed Background 3D Cinematic Canvas Viewport (Scroll-Controlled)
+       ========================================================================= -->
+  <div class="canvas-wrapper" id="canvas-wrapper">
+    <canvas id="animation-canvas"></canvas>
+  </div>
+  <div class="video-warm-veil" id="video-veil"></div>
+
+  <!-- Minimal Preloader Pill -->
+  <div id="loader" class="loader-overlay" aria-live="polite">
+    <div class="loader-spinner"></div>
+    <div class="loader-bar-wrap">
+      <div class="loader-bar-fill" id="loader-bar"></div>
+    </div>
+    <span class="loader-label" id="loader-text">0%</span>
+  </div>
+
+  <!-- Scrub Progress Track -->
+  <div class="scrub-tracker">
+    <div class="scrub-progress" id="scrub-progress"></div>
+  </div>
+
+  <!-- =========================================================================
+       Sticky Navigation Bar
+       ========================================================================= -->
+  <header class="site-header">
+    <a href="#home" class="nav-brand">
+      <img src="assets/aatir_headshot.png" alt="Md. Aatir Usmani" class="brand-avatar">
+      <span class="brand-name">Md. Aatir Usmani</span>
+    </a>
+
+    <nav class="nav-menu">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#certifications" class="nav-link">Certifications</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#gallery" class="nav-link">Gallery</a>
+      <a href="#capabilities" class="nav-link">Capabilities</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="theme-toggle-btn" id="theme-toggle" title="Toggle Dark/Light Mode" aria-label="Toggle Theme">
+        <span id="theme-icon">🌙</span>
+      </button>
+      <a href="#contact" class="btn-nav-connect">Let's Connect</a>
+      <button class="hamburger-btn" id="hamburger-btn" aria-label="Open Navigation Menu">☰</button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-nav-drawer" id="mobile-drawer">
+    <div class="mobile-drawer-header">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <img src="assets/aatir_headshot.png" alt="Md. Aatir Usmani" class="brand-avatar" style="width: 36px; height: 36px;">
+        <span class="brand-name">Md. Aatir Usmani</span>
+      </div>
+      <button class="hamburger-btn" id="drawer-close-btn" aria-label="Close Navigation Menu">✕</button>
+    </div>
+    <ul class="mobile-drawer-links">
+      <li><a href="#home" class="mobile-link">Home</a></li>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#experience" class="mobile-link">Experience</a></li>
+      <li><a href="#skills" class="mobile-link">Skills</a></li>
+      <li><a href="#certifications" class="mobile-link">Certifications</a></li>
+      <li><a href="#projects" class="mobile-link">Projects</a></li>
+      <li><a href="#gallery" class="mobile-link">Gallery</a></li>
+      <li><a href="#capabilities" class="mobile-link">Capabilities</a></li>
+      <li><a href="#education" class="mobile-link">Education</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+    <div>
+      <a href="#contact" class="btn-primary" style="width: 100%; justify-content: center;">Let's Connect</a>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       Main Content Layer (Flows Smoothly Over Synchronized 3D Background)
+       ========================================================================= -->
+  <main id="content-layer">
+
+    <!-- 1. HERO SECTION -->
+    <section id="home" class="hero-section" data-video-visibility="high">
+      <div class="hero-content">
+        <div class="hero-status-pill">
+          <span>● Early-Career Business Professional</span>
+        </div>
+
+        <h1 class="hero-name">Md. Aatir Usmani</h1>
+        <p class="hero-positioning">BBA in International Business | Operations • Research • Logistics • Business Analysis</p>
+        
+        <h2 class="hero-headline">“Building a Career in Business Operations, International Business & Management.”</h2>
+
+        <p class="hero-supporting">
+          BBA graduate in International Business with practical experience across business operations, market research, general management, sales coordination, product development, and corporate engagement. Interested in building an international career across operations, logistics, healthcare, pharma, consulting, and management.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#projects" class="btn-primary">
+            <span>View My Work</span>
+            <span>→</span>
+          </a>
+          <a href="#contact" class="btn-secondary">
+            <span>Let's Connect</span>
+          </a>
+        </div>
+
+        <ul class="hero-social-links">
+          <li>
+            <a href="https://linkedin.com/in/mdaatirusmani2005" target="_blank" rel="noopener" class="hero-social-link">
+              <span>💼 LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:usmaniaatir721@gmail.com" class="hero-social-link">
+              <span>✉️ Email</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com/usmani.ma" target="_blank" rel="noopener" class="hero-social-link">
+              <span>📸 Instagram</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="hero-visual-frame">
+        <div class="profile-backdrop-aura"></div>
+        <div class="profile-img-container">
+          <img src="assets/aatir_headshot.png" alt="Md. Aatir Usmani Corporate Headshot" class="profile-img">
+        </div>
+
+        <!-- Floating Brand Pillars around Profile Picture -->
+        <div class="floating-pill pill-1">🌐 International Business</div>
+        <div class="floating-pill pill-2">⚙️ Operations</div>
+        <div class="floating-pill pill-3">📊 Research</div>
+        <div class="floating-pill pill-4">🤝 Leadership</div>
+      </div>
+    </section>
+
+    <!-- 2. PROFESSIONAL SNAPSHOT -->
+    <section class="section-wrapper" style="padding-top: 10px;">
+      <div class="snapshot-grid">
+        <div class="corporate-card snapshot-card">
+          <span class="snapshot-stat-sub">Undergraduate Degree</span>
+          <div class="snapshot-stat">BBA</div>
+          <p class="snapshot-label">International Business • 2023–2026</p>
+        </div>
+
+        <div class="corporate-card snapshot-card">
+          <span class="snapshot-stat-sub">Applied Research & Ops</span>
+          <div class="snapshot-stat">5</div>
+          <p class="snapshot-label">Featured Projects Across Research & FMCG</p>
+        </div>
+
+        <div class="corporate-card snapshot-card">
+          <span class="snapshot-stat-sub">Institutional Impact</span>
+          <div class="snapshot-stat">Multiple</div>
+          <p class="snapshot-label">Leadership, Placement & Professional Initiatives</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. ABOUT ME -->
+    <section id="about" class="section-wrapper" data-video-visibility="medium">
+      <span class="section-kicker">Professional Background</span>
+      <h2 class="section-heading">About Me</h2>
+      
+      <div class="corporate-card about-narrative-card">
+        <p>
+          I am an ambitious early-career business professional with a BBA in International Business from St. Xavier’s College of Management & Technology (SXCMT), Patna. My academic background and hands-on operational experiences have shaped my passion for solving complex business challenges across operations, logistics, healthcare, pharmaceuticals, research, and global management.
+        </p>
+        <p>
+          Rather than relying solely on theoretical classroom concepts, I have actively grounded my learning through practical exposure: executing market research, catalogue development, and product operations at <strong>IMZAK Organics</strong>; managing customer and vendor coordination in my family wholesale clothing enterprise; driving corporate outreach as <strong>Corporate & PR Head</strong> for the SXCMT Placement Cell; and mentoring through the <strong>Vidya Mohan Foundation</strong>.
+        </p>
+      </div>
+
+      <!-- Four-Pillar Visual Framework -->
+      <div class="pillars-grid">
+        <div class="corporate-card pillar-card">
+          <div class="pillar-icon">🎓</div>
+          <h3 class="pillar-title">Academic Knowledge</h3>
+          <p class="pillar-desc">Comprehensive foundation in international trade, economics, supply chain strategy, business law, and financial analysis.</p>
+        </div>
+
+        <div class="corporate-card pillar-card">
+          <div class="pillar-icon">🏭</div>
+          <h3 class="pillar-title">Practical Operations</h3>
+          <p class="pillar-desc">On-the-ground exposure to inventory handling, vendor coordination, FMCG packaging, catalogue creation, and day-to-day management.</p>
+        </div>
+
+        <div class="corporate-card pillar-card">
+          <div class="pillar-icon">📈</div>
+          <h3 class="pillar-title">Research & Analytics</h3>
+          <p class="pillar-desc">Structured survey design, primary field data collection, quantitative evaluation, and actionable business research reports.</p>
+        </div>
+
+        <div class="corporate-card pillar-card">
+          <div class="pillar-icon">👥</div>
+          <h3 class="pillar-title">Leadership & Engagement</h3>
+          <p class="pillar-desc">Proven stakeholder management, corporate recruitment liaison, discipline committee stewardship, and large-scale event execution.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. PROFESSIONAL EXPERIENCE -->
+    <section id="experience" class="section-wrapper" data-video-visibility="low">
+      <span class="section-kicker">Work History & Practical Exposure</span>
+      <h2 class="section-heading">Professional Experience</h2>
+      <p class="section-lead">A chronological journey of hands-on operations, research internships, small-business management, and student council leadership.</p>
+
+      <div class="timeline-track">
+        
+        <!-- Experience 1: IMZAK Organics -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="corporate-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Market Research & General Management Intern</h3>
+                <p class="timeline-org">IMZAK Organics</p>
+              </div>
+              <span class="timeline-date-badge">June 2026 – July 2026 • 4 Weeks</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Conducted market research and competitor benchmarking for organic FMCG product lines.</li>
+              <li>Handled vendor coordination, customer interaction, and sales pipeline support.</li>
+              <li>Contributed to product handling, packaging evaluations, and official catalogue development.</li>
+              <li>Gained direct manufacturing exposure and assisted in day-to-day small-business operations.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="tag-pill">Market Research</span>
+              <span class="tag-pill">Product Development</span>
+              <span class="tag-pill">FMCG Packaging</span>
+              <span class="tag-pill">Vendor Coordination</span>
+              <span class="tag-pill">Catalogue Design</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 2: Family Wholesale Business -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="corporate-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Business Operations Experience</h3>
+                <p class="timeline-org">Family Wholesale Clothing Enterprise</p>
+              </div>
+              <span class="timeline-date-badge">Ongoing Practical Experience</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Managing ongoing customer relationships and B2B vendor communications.</li>
+              <li>Overseeing order processing, inventory tracking, and warehouse product dispatch.</li>
+              <li>Supporting sales operations, pricing adjustments, and supplier negotiations.</li>
+              <li>Developing real-world problem-solving skills in high-velocity trading environments.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="tag-pill">Wholesale Operations</span>
+              <span class="tag-pill">Inventory Management</span>
+              <span class="tag-pill">B2B Sales</span>
+              <span class="tag-pill">Order Fulfillment</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 3: Vidya Mohan Foundation -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="corporate-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Teaching & Social Work Intern</h3>
+                <p class="timeline-org">Vidya Mohan Foundation</p>
+              </div>
+              <span class="timeline-date-badge">30-Hour Intensive Internship</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Delivered educational mentorship and teaching support for underprivileged learners.</li>
+              <li>Facilitated student engagement sessions emphasizing communication and critical thinking.</li>
+              <li>Coordinated group activities and engaged with community stakeholders with high responsibility.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="tag-pill">Community Engagement</span>
+              <span class="tag-pill">Mentorship</span>
+              <span class="tag-pill">Interpersonal Communication</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 4: Corporate & PR Head -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="corporate-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Corporate & Public Relations Head</h3>
+                <p class="timeline-org">Placement Cell, SXCMT</p>
+              </div>
+              <span class="timeline-date-badge">2025–2026 Academic Term</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Spearheaded corporate communication and corporate outreach for institutional recruitment drives.</li>
+              <li>Organized pre-placement workshops, executive guest lectures, and industry interaction conclaves.</li>
+              <li>Managed inter-departmental student coordinators and ensured smooth recruiter onboarding.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="tag-pill">Corporate Relations</span>
+              <span class="tag-pill">Public Relations</span>
+              <span class="tag-pill">Campus Recruitment</span>
+              <span class="tag-pill">Executive Communication</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 5: Discipline Committee -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="corporate-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Member, Discipline Committee</h3>
+                <p class="timeline-org">St. Xavier's College of Management & Technology (SXCMT)</p>
+              </div>
+              <span class="timeline-date-badge">Institutional Service</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Upheld institutional code of conduct and protocol across college events and academic premises.</li>
+              <li>Collaborated with faculty leaders to ensure security and decorum during major academic conferences.</li>
+              <li>Practiced high accountability, crisis de-escalation, and reliable team coordination.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="tag-pill">Conflict Resolution</span>
+              <span class="tag-pill">Institutional Protocol</span>
+              <span class="tag-pill">Responsibility</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 6: XEST Core Committee -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="corporate-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Core Committee Member</h3>
+                <p class="timeline-org">XEST Annual Management Conclave, SXCMT</p>
+              </div>
+              <span class="timeline-date-badge">2025–2026 Term</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Contributed to master event scheduling, budget allocation, and stage logistics execution.</li>
+              <li>Coordinated corporate guest speakers, jury members, and competitive collegiate teams.</li>
+              <li>Executed on-ground incident management and maintained cross-functional teamwork.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="tag-pill">Event Logistics</span>
+              <span class="tag-pill">Team Leadership</span>
+              <span class="tag-pill">On-Ground Execution</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 5. PROFESSIONAL TRAINING (Infosys GEET) -->
+    <section class="section-wrapper" style="padding-top: 10px;">
+      <div class="corporate-card training-card">
+        <div>
+          <span class="section-kicker">Specialized Training</span>
+          <h3 class="training-title">Infosys GEET Certification</h3>
+          <p class="training-subtitle">Graduate Employability Enhancement Training • Infosys Springboard</p>
+          <p class="training-desc">
+            Completed rigorous corporate readiness training designed to bridge academia with modern industry demands. The curriculum prioritized logical deduction, structured business problem solving, professional written & spoken communication, and digital competency.
+          </p>
+        </div>
+
+        <div class="training-highlights">
+          <div class="training-highlight-item">✓ Professional Communication</div>
+          <div class="training-highlight-item">✓ Customer Engagement</div>
+          <div class="training-highlight-item">✓ Logical Reasoning</div>
+          <div class="training-highlight-item">✓ Digital Fluency</div>
+          <div class="training-highlight-item">✓ Domain Awareness</div>
+          <div class="training-highlight-item">✓ Interview Readiness</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. SKILLS & EXPERTISE -->
+    <section id="skills" class="section-wrapper" data-video-visibility="low">
+      <span class="section-kicker">Core Competencies</span>
+      <h2 class="section-heading">Skills & Expertise</h2>
+      <p class="section-lead">Structured categories illustrating my working knowledge across operations, analytics, marketing, and modern productivity suites.</p>
+
+      <div class="skills-container-grid">
+        
+        <!-- Skill 1: Business & Operations -->
+        <div class="corporate-card skill-category-card">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">⚙️</span>
+            <h3 class="skill-cat-title">Business & Operations</h3>
+          </div>
+          <ul class="skill-items-list">
+            <li class="skill-item-pill">Business Operations & Administration</li>
+            <li class="skill-item-pill">Operations Coordination</li>
+            <li class="skill-item-pill">Vendor & Stakeholder Coordination</li>
+            <li class="skill-item-pill">Sales & Customer Coordination</li>
+            <li class="skill-item-pill">Inventory & Product Handling</li>
+            <li class="skill-item-pill">Logistics & Supply Chain Fundamentals</li>
+            <li class="skill-item-pill">International Business Concepts</li>
+            <li class="skill-item-pill">General Management</li>
+          </ul>
+        </div>
+
+        <!-- Skill 2: Research & Analytics -->
+        <div class="corporate-card skill-category-card">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">📊</span>
+            <h3 class="skill-cat-title">Research & Analytics</h3>
+          </div>
+          <ul class="skill-items-list">
+            <li class="skill-item-pill">Market Research & Field Surveys</li>
+            <li class="skill-item-pill">Data Collection & Analysis</li>
+            <li class="skill-item-pill">Business Research Methodology</li>
+            <li class="skill-item-pill">Competitor Benchmarking</li>
+            <li class="skill-item-pill">Problem Solving & Logical Reasoning</li>
+            <li class="skill-item-pill">Research Report Preparation</li>
+            <li class="skill-item-pill">Analytical Thinking</li>
+          </ul>
+        </div>
+
+        <!-- Skill 3: Marketing & Communication -->
+        <div class="corporate-card skill-category-card">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">📢</span>
+            <h3 class="skill-cat-title">Marketing & Communication</h3>
+          </div>
+          <ul class="skill-items-list">
+            <li class="skill-item-pill">Digital Marketing Fundamentals</li>
+            <li class="skill-item-pill">Product Marketing Concepts</li>
+            <li class="skill-item-pill">Catalogue & Content Development</li>
+            <li class="skill-item-pill">Corporate Communication</li>
+            <li class="skill-item-pill">Public Relations Management</li>
+            <li class="skill-item-pill">Customer Relationship Engagement</li>
+            <li class="skill-item-pill">Professional Presentation Skills</li>
+          </ul>
+        </div>
+
+        <!-- Skill 4: Leadership & Professional Skills -->
+        <div class="corporate-card skill-category-card">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">🤝</span>
+            <h3 class="skill-cat-title">Leadership & Professional</h3>
+          </div>
+          <ul class="skill-items-list">
+            <li class="skill-item-pill">Teamwork & Collaboration</li>
+            <li class="skill-item-pill">Event Planning & Management</li>
+            <li class="skill-item-pill">Project Coordination</li>
+            <li class="skill-item-pill">Time Management & Prioritization</li>
+            <li class="skill-item-pill">Adaptability in Fast-Paced Roles</li>
+            <li class="skill-item-pill">Stakeholder Relationship Building</li>
+          </ul>
+        </div>
+
+        <!-- Skill 5: Tools & Software -->
+        <div class="corporate-card skill-category-card" style="grid-column: span 2;">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">💻</span>
+            <h3 class="skill-cat-title">Tools & Software Stack</h3>
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+            <div class="skill-item-pill">📊 Microsoft Excel</div>
+            <div class="skill-item-pill">📄 Microsoft Word</div>
+            <div class="skill-item-pill">📽️ Microsoft PowerPoint</div>
+            <div class="skill-item-pill">🎨 Canva (Design & Layouts)</div>
+            <div class="skill-item-pill">📋 Google Forms (Survey Research)</div>
+            <div class="skill-item-pill">🎬 Digital Video & Media Tools</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 7. AREAS OF PROFESSIONAL INTEREST ("Where I'm Heading") -->
+    <section class="section-wrapper">
+      <span class="section-kicker">Strategic Trajectory</span>
+      <h2 class="section-heading">Where I'm Heading</h2>
+      
+      <div class="corporate-card pathway-card">
+        <div class="pathway-track">
+          <div class="pathway-node">
+            <span class="pathway-node-step">01</span>
+            <span class="pathway-node-title">Business Operations</span>
+          </div>
+          <div class="pathway-node">
+            <span class="pathway-node-step">02</span>
+            <span class="pathway-node-title">Business Analytics</span>
+          </div>
+          <div class="pathway-node">
+            <span class="pathway-node-step">03</span>
+            <span class="pathway-node-title">Logistics & Supply Chain</span>
+          </div>
+          <div class="pathway-node">
+            <span class="pathway-node-step">04</span>
+            <span class="pathway-node-title">Healthcare & Pharma Ops</span>
+          </div>
+          <div class="pathway-node">
+            <span class="pathway-node-step">05</span>
+            <span class="pathway-node-title">International Business</span>
+          </div>
+          <div class="pathway-node">
+            <span class="pathway-node-step">06</span>
+            <span class="pathway-node-title">Management Consulting</span>
+          </div>
+        </div>
+
+        <p class="pathway-statement">
+          “I am particularly interested in developing deeper expertise in analytical, operational, and management roles within globally oriented organizations.”
+        </p>
+      </div>
+    </section>
+
+    <!-- 8. CERTIFICATIONS & CREDENTIALS -->
+    <section id="certifications" class="section-wrapper" data-video-visibility="low">
+      <span class="section-kicker">Continuous Learning</span>
+      <h2 class="section-heading">Certifications & Credentials</h2>
+      <p class="section-lead">Formal certifications, workshops, and achievement documents from my academic and professional journey — click any card to view the certificate.</p>
+
+      <!-- Category Filter Bar -->
+      <div class="filter-button-bar">
+        <button class="cert-filter-chip active" data-cert-filter="all">All Credentials</button>
+        <button class="cert-filter-chip" data-cert-filter="professional">Professional</button>
+        <button class="cert-filter-chip" data-cert-filter="academic">Academic</button>
+        <button class="cert-filter-chip" data-cert-filter="leadership">Leadership</button>
+        <button class="cert-filter-chip" data-cert-filter="workshops">Events & Activities</button>
+      </div>
+
+      <!-- Certificate Grid with real files -->
+      <div class="cert-cards-grid" id="cert-grid">
+
+        <!-- Cert 1: AI Session -->
+        <div class="corporate-card cert-card cert-card-real" data-category="professional"
+             data-file="Certificates/AI Session Certificate.pdf" data-filetype="pdf"
+             data-title="AI Session Certificate"
+             data-issuer="Workshop Organizers"
+             data-date="2026"
+             data-desc="Certificate of participation in an AI-focused session covering artificial intelligence fundamentals, business applications, and emerging technology trends."
+             data-skills="Artificial Intelligence • Technology Awareness • Digital Skills">
+          <div class="cert-thumb-wrapper">
+            <div class="cert-thumb-icon">📄</div>
+          </div>
+          <div>
+            <div class="cert-badge-row">
+              <span class="cert-category-tag">Professional</span>
+              <span class="cert-year">2026</span>
+            </div>
+            <h3 class="cert-title">AI Session Certificate</h3>
+            <p class="cert-issuer">Workshop Organizers</p>
+            <p class="cert-skills">Artificial Intelligence • Technology • Digital Skills</p>
+          </div>
+          <button class="btn-view-cert btn-view-file">View Certificate →</button>
+        </div>
+
+        <!-- Cert 2: Baal Mela -->
+        <div class="corporate-card cert-card cert-card-real" data-category="workshops"
+             data-file="Certificates/Baal mela.pdf" data-filetype="pdf"
+             data-title="Baal Mela Participation Certificate"
+             data-issuer="Organizing Committee"
+             data-date="2025"
+             data-desc="Certificate of active participation and contribution in the Baal Mela event, demonstrating community engagement and social responsibility."
+             data-skills="Community Engagement • Event Participation • Social Activity">
+          <div class="cert-thumb-wrapper">
+            <div class="cert-thumb-icon">📄</div>
+          </div>
+          <div>
+            <div class="cert-badge-row">
+              <span class="cert-category-tag">Events & Activities</span>
+              <span class="cert-year">2025</span>
+            </div>
+            <h3 class="cert-title">Baal Mela Participation</h3>
+            <p class="cert-issuer">Organizing Committee</p>
+            <p class="cert-skills">Community Engagement • Social Activity</p>
+          </div>
+          <button class="btn-view-cert btn-view-file">View Certificate →</button>
+        </div>
+
+        <!-- Cert 3: Infosys GEET -->
+        <div class="corporate-card cert-card cert-card-real" data-category="professional"
+             data-file="Certificates/Certificate_9931885195_08042026124725.pdf" data-filetype="pdf"
+             data-title="Graduate Employability Enhancement Training (GEET)"
+             data-issuer="Infosys Springboard"
+             data-date="2026"
+             data-desc="Rigorous corporate readiness curriculum emphasizing structured logical reasoning, workplace communication, digital fluency, and professional customer engagement. Certified by Infosys Springboard."
+             data-skills="Corporate Communication • Problem Solving • Interview Readiness • Digital Fluency">
+          <div class="cert-thumb-wrapper">
+            <div class="cert-thumb-icon">🏅</div>
+          </div>
+          <div>
+            <div class="cert-badge-row">
+              <span class="cert-category-tag">Professional</span>
+              <span class="cert-year">2026</span>
+            </div>
+            <h3 class="cert-title">GEET – Infosys Springboard</h3>
+            <p class="cert-issuer">Infosys Springboard</p>
+            <p class="cert-skills">Corporate Communication • Problem Solving • Employability</p>
+          </div>
+          <button class="btn-view-cert btn-view-file">View Certificate →</button>
+        </div>
+
+        <!-- Cert 4: D2D Image -->
+        <div class="corporate-card cert-card cert-card-real" data-category="workshops"
+             data-file="Certificates/D2D.jpg" data-filetype="image"
+             data-title="D2D Event Certificate"
+             data-issuer="Organizing Committee"
+             data-date="2025"
+             data-desc="Certificate awarded for participation and performance in the D2D event, showcasing dedication to co-curricular excellence."
+             data-skills="Event Participation • Leadership • Co-Curricular Excellence">
+          <div class="cert-thumb-wrapper cert-thumb-img-wrap">
+            <img src="Certificates/D2D.jpg" alt="D2D Certificate" class="cert-thumb-img" loading="lazy">
+          </div>
+          <div>
+            <div class="cert-badge-row">
+              <span class="cert-category-tag">Events & Activities</span>
+              <span class="cert-year">2025</span>
+            </div>
+            <h3 class="cert-title">D2D Event Certificate</h3>
+            <p class="cert-issuer">Organizing Committee</p>
+            <p class="cert-skills">Co-Curricular Excellence • Leadership</p>
+          </div>
+          <button class="btn-view-cert btn-view-file">View Certificate →</button>
+        </div>
+
+        <!-- Cert 5: Financial Instrument -->
+        <div class="corporate-card cert-card cert-card-real" data-category="academic"
+             data-file="Certificates/Financial Instrument.pdf" data-filetype="pdf"
+             data-title="Financial Instruments Workshop Certificate"
+             data-issuer="Academic Institution"
+             data-date="2025"
+             data-desc="Certificate of completion for a workshop on financial instruments, investment vehicles, and capital market fundamentals relevant to international business operations."
+             data-skills="Financial Instruments • Capital Markets • Investment Basics">
+          <div class="cert-thumb-wrapper">
+            <div class="cert-thumb-icon">💰</div>
+          </div>
+          <div>
+            <div class="cert-badge-row">
+              <span class="cert-category-tag">Academic</span>
+              <span class="cert-year">2025</span>
+            </div>
+            <h3 class="cert-title">Financial Instruments Workshop</h3>
+            <p class="cert-issuer">Academic Institution</p>
+            <p class="cert-skills">Financial Instruments • Capital Markets</p>
+          </div>
+          <button class="btn-view-cert btn-view-file">View Certificate →</button>
+        </div>
+
+        <!-- Cert 6: Fit India -->
+        <div class="corporate-card cert-card cert-card-real" data-category="workshops"
+             data-file="Certificates/Fit India.pdf" data-filetype="pdf"
+             data-title="Fit India Movement Certificate"
+             data-issuer="Fit India Movement"
+             data-date="2025"
+             data-desc="Certificate of active participation in the Fit India Movement, contributing to the national initiative promoting health, wellness, and physical fitness among youth."
+             data-skills="Health & Wellness • National Initiatives • Youth Engagement">
+          <div class="cert-thumb-wrapper">
+            <div class="cert-thumb-icon">🏃</div>
+          </div>
+          <div>
+            <div class="cert-badge-row">
+              <span class="cert-category-tag">Events & Activities</span>
+              <span class="cert-year">2025</span>
+            </div>
+            <h3 class="cert-title">Fit India Movement</h3>
+            <p class="cert-issuer">Fit India Movement</p>
+            <p class="cert-skills">Health & Wellness • National Initiative</p>
+          </div>
+          <button class="btn-view-cert btn-view-file">View Certificate →</button>
+        </div>
+
+        <!-- Cert 7: Internship Certificate -->
+        <div class="corporate-card cert-card cert-card-real" data-category="professional"
+             data-file="Certificates/Internship Certificate.pdf" data-filetype="pdf"
+             data-title="Internship Completion Certificate"
+             data-issuer="IMZAK Organics"
+             data-date="2026"
+             data-desc="Official internship completion certificate from IMZAK Organics, certifying hands-on experience in market research, general management, product development, and FMCG operations."
+             data-skills="Market Research • General Management • FMCG Operations • Product Development">
+          <div class="cert-thumb-wrapper">
+            <div class="cert-thumb-icon">🏢</div>
+          </div>
+          <div>
+            <div class="cert-badge-row">
+              <span class="cert-category-tag">Professional</span>
+              <span class="cert-year">2026</span>
+            </div>
+            <h3 class="cert-title">Internship – IMZAK Organics</h3>
+            <p class="cert-issuer">IMZAK Organics</p>
+            <p class="cert-skills">Market Research • FMCG Operations • Management</p>
+          </div>
+          <button class="btn-view-cert btn-view-file">View Certificate →</button>
+        </div>
+
+        <!-- Cert 8: Java Programming -->
+        <div class="corporate-card cert-card cert-card-real" data-category="academic"
+             data-file="Certificates/Java programming.pdf" data-filetype="pdf"
+             data-title="Java Programming Fundamentals"
+             data-issuer="Online Learning Platform"
+             data-date="2025"
+             data-desc="Certificate of completion for Java programming fundamentals course, covering object-oriented concepts, data structures, and basic application development."
+             data-skills="Java • Object-Oriented Programming • Digital Skills">
+          <div class="cert-thumb-wrapper">
+            <div class="cert-thumb-icon">💻</div>
+          </div>
+          <div>
+            <div class="cert-badge-row">
+              <span class="cert-category-tag">Academic</span>
+              <span class="cert-year">2025</span>
+            </div>
+            <h3 class="cert-title">Java Programming Fundamentals</h3>
+            <p class="cert-issuer">Online Learning Platform</p>
+            <p class="cert-skills">Java • Programming • Digital Literacy</p>
+          </div>
+          <button class="btn-view-cert btn-view-file">View Certificate →</button>
+        </div>
+
+        <!-- Cert 9: Kavya Rasdhara -->
+        <div class="corporate-card cert-card cert-card-real" data-category="workshops"
+             data-file="Certificates/Kavya Rasdhara.pdf" data-filetype="pdf"
+             data-title="Kavya Rasdhara Poetry Certificate"
+             data-issuer="Organizing Committee"
+             data-date="2024"
+             data-desc="Certificate of participation in the Kavya Rasdhara poetry event, showcasing artistic expression, cultural appreciation, and communication skills."
+             data-skills="Creative Expression • Communication • Cultural Engagement">
+          <div class="cert-thumb-wrapper">
+            <div class="cert-thumb-icon">📝</div>
+          </div>
+          <div>
+            <div class="cert-badge-row">
+              <span class="cert-category-tag">Events & Activities</span>
+              <span class="cert-year">2024</span>
+            </div>
+            <h3 class="cert-title">Kavya Rasdhara – Poetry Event</h3>
+            <p class="cert-issuer">Organizing Committee</p>
+            <p class="cert-skills">Creative Expression • Cultural Engagement</p>
+          </div>
+          <button class="btn-view-cert btn-view-file">View Certificate →</button>
+        </div>
+
+        <!-- Cert 10: Mime -->
+        <div class="corporate-card cert-card cert-card-real" data-category="workshops"
+             data-file="Certificates/Mime.jpeg" data-filetype="image"
+             data-title="Mime Performance Certificate"
+             data-issuer="SXCMT"
+             data-date="2024"
+             data-desc="Certificate acknowledging participation in a mime performance at the college cultural fest, demonstrating creative arts and non-verbal communication skills."
+             data-skills="Creative Arts • Non-Verbal Communication • Cultural Performance">
+          <div class="cert-thumb-wrapper cert-thumb-img-wrap">
+            <img src="Certificates/Mime.jpeg" alt="Mime Certificate" class="cert-thumb-img" loading="lazy">
+          </div>
+          <div>
+            <div class="cert-badge-row">
+              <span class="cert-category-tag">Events & Activities</span>
+              <span class="cert-year">2024</span>
+            </div>
+            <h3 class="cert-title">Mime Performance</h3>
+            <p class="cert-issuer">SXCMT</p>
+            <p class="cert-skills">Creative Arts • Non-Verbal Communication</p>
+          </div>
+          <button class="btn-view-cert btn-view-file">View Certificate →</button>
+        </div>
+
+        <!-- Cert 11: Md. Aatir Usmani Certificate -->
+        <div class="corporate-card cert-card cert-card-real" data-category="leadership"
+             data-file="Certificates/Mr. Md. Aatir Usmani_certificate.pdf" data-filetype="pdf"
+             data-title="Achievement Certificate – Md. Aatir Usmani"
+             data-issuer="Issuing Authority"
+             data-date="2026"
+             data-desc="Official certificate of achievement recognizing outstanding contributions and accomplishments in academic and professional activities."
+             data-skills="Leadership • Achievement • Professional Excellence">
+          <div class="cert-thumb-wrapper">
+            <div class="cert-thumb-icon">🏆</div>
+          </div>
+          <div>
+            <div class="cert-badge-row">
+              <span class="cert-category-tag">Leadership</span>
+              <span class="cert-year">2026</span>
+            </div>
+            <h3 class="cert-title">Achievement Certificate</h3>
+            <p class="cert-issuer">Issuing Authority</p>
+            <p class="cert-skills">Leadership • Achievement • Excellence</p>
+          </div>
+          <button class="btn-view-cert btn-view-file">View Certificate →</button>
+        </div>
+
+        <!-- Cert 12: MyBharat Quiz -->
+        <div class="corporate-card cert-card cert-card-real" data-category="academic"
+             data-file="Certificates/MyBharat_Quiz_Certificate.png" data-filetype="image"
+             data-title="MyBharat Quiz Certificate"
+             data-issuer="MyBharat Portal"
+             data-date="2025"
+             data-desc="Certificate for successful completion of the MyBharat Quiz, demonstrating awareness of national development initiatives, civic knowledge, and general awareness."
+             data-skills="Civic Awareness • National Knowledge • General Awareness">
+          <div class="cert-thumb-wrapper cert-thumb-img-wrap">
+            <img src="Certificates/MyBharat_Quiz_Certificate.png" alt="MyBharat Quiz Certificate" class="cert-thumb-img" loading="lazy">
+          </div>
+          <div>
+            <div class="cert-badge-row">
+              <span class="cert-category-tag">Academic</span>
+              <span class="cert-year">2025</span>
+            </div>
+            <h3 class="cert-title">MyBharat Quiz Certificate</h3>
+            <p class="cert-issuer">MyBharat Portal</p>
+            <p class="cert-skills">Civic Awareness • National Initiatives</p>
+          </div>
+          <button class="btn-view-cert btn-view-file">View Certificate →</button>
+        </div>
+
+        <!-- Cert 13: NICE -->
+        <div class="corporate-card cert-card cert-card-real" data-category="professional"
+             data-file="Certificates/NICE.pdf" data-filetype="pdf"
+             data-title="NICE Certification"
+             data-issuer="NICE Organization"
+             data-date="2025"
+             data-desc="Certificate from NICE, recognizing completion of specialized training or participation in NICE-related activities and initiatives."
+             data-skills="Professional Development • Specialized Training">
+          <div class="cert-thumb-wrapper">
+            <div class="cert-thumb-icon">🎓</div>
+          </div>
+          <div>
+            <div class="cert-badge-row">
+              <span class="cert-category-tag">Professional</span>
+              <span class="cert-year">2025</span>
+            </div>
+            <h3 class="cert-title">NICE Certificate</h3>
+            <p class="cert-issuer">NICE Organization</p>
+            <p class="cert-skills">Professional Development • Training</p>
+          </div>
+          <button class="btn-view-cert btn-view-file">View Certificate →</button>
+        </div>
+
+        <!-- Cert 14: Poetry Workshop -->
+        <div class="corporate-card cert-card cert-card-real" data-category="workshops"
+             data-file="Certificates/Poetry Workshop.pdf" data-filetype="pdf"
+             data-title="Poetry Workshop Certificate"
+             data-issuer="Workshop Organizers"
+             data-date="2024"
+             data-desc="Certificate of participation in a creative poetry workshop focusing on literary expression, language appreciation, and creative writing development."
+             data-skills="Creative Writing • Language Skills • Literary Appreciation">
+          <div class="cert-thumb-wrapper">
+            <div class="cert-thumb-icon">✍️</div>
+          </div>
+          <div>
+            <div class="cert-badge-row">
+              <span class="cert-category-tag">Events & Activities</span>
+              <span class="cert-year">2024</span>
+            </div>
+            <h3 class="cert-title">Poetry Workshop</h3>
+            <p class="cert-issuer">Workshop Organizers</p>
+            <p class="cert-skills">Creative Writing • Language Skills</p>
+          </div>
+          <button class="btn-view-cert btn-view-file">View Certificate →</button>
+        </div>
+
+        <!-- Cert 15: Public Economics -->
+        <div class="corporate-card cert-card cert-card-real" data-category="academic"
+             data-file="Certificates/Public economics.pdf" data-filetype="pdf"
+             data-title="Public Economics Certificate"
+             data-issuer="Academic Institution"
+             data-date="2025"
+             data-desc="Certificate for completion of a public economics module covering government fiscal policy, taxation, public goods, market failures, and welfare economics."
+             data-skills="Public Economics • Fiscal Policy • Welfare Economics">
+          <div class="cert-thumb-wrapper">
+            <div class="cert-thumb-icon">📊</div>
+          </div>
+          <div>
+            <div class="cert-badge-row">
+              <span class="cert-category-tag">Academic</span>
+              <span class="cert-year">2025</span>
+            </div>
+            <h3 class="cert-title">Public Economics</h3>
+            <p class="cert-issuer">Academic Institution</p>
+            <p class="cert-skills">Fiscal Policy • Welfare Economics</p>
+          </div>
+          <button class="btn-view-cert btn-view-file">View Certificate →</button>
+        </div>
+
+        <!-- Cert 16: Science Exhibition -->
+        <div class="corporate-card cert-card cert-card-real" data-category="workshops"
+             data-file="Certificates/Science exhibition.pdf" data-filetype="pdf"
+             data-title="Science Exhibition Certificate"
+             data-issuer="Organizing Institution"
+             data-date="2024"
+             data-desc="Certificate of participation in a science exhibition demonstrating cross-disciplinary curiosity, analytical thinking, and project presentation skills."
+             data-skills="Cross-Disciplinary Thinking • Project Presentation • Analytical Skills">
+          <div class="cert-thumb-wrapper">
+            <div class="cert-thumb-icon">🔬</div>
+          </div>
+          <div>
+            <div class="cert-badge-row">
+              <span class="cert-category-tag">Events & Activities</span>
+              <span class="cert-year">2024</span>
+            </div>
+            <h3 class="cert-title">Science Exhibition</h3>
+            <p class="cert-issuer">Organizing Institution</p>
+            <p class="cert-skills">Analytical Thinking • Presentation Skills</p>
+          </div>
+          <button class="btn-view-cert btn-view-file">View Certificate →</button>
+        </div>
+
+        <!-- Cert 17: Social Work -->
+        <div class="corporate-card cert-card cert-card-real" data-category="leadership"
+             data-file="Certificates/Social Work Certificate.pdf" data-filetype="pdf"
+             data-title="Social Work Certificate"
+             data-issuer="Vidya Mohan Foundation"
+             data-date="2025"
+             data-desc="Official social work certificate from the Vidya Mohan Foundation, recognizing 30 hours of intensive teaching, community mentorship, and student engagement with underprivileged youth."
+             data-skills="Community Engagement • Mentorship • Social Responsibility • Teaching">
+          <div class="cert-thumb-wrapper">
+            <div class="cert-thumb-icon">🤝</div>
+          </div>
+          <div>
+            <div class="cert-badge-row">
+              <span class="cert-category-tag">Leadership</span>
+              <span class="cert-year">2025</span>
+            </div>
+            <h3 class="cert-title">Social Work – Vidya Mohan Foundation</h3>
+            <p class="cert-issuer">Vidya Mohan Foundation</p>
+            <p class="cert-skills">Community Service • Teaching • Mentorship</p>
+          </div>
+          <button class="btn-view-cert btn-view-file">View Certificate →</button>
+        </div>
+
+        <!-- Cert 18: XEST -->
+        <div class="corporate-card cert-card cert-card-real" data-category="leadership"
+             data-file="Certificates/XEST.jpeg" data-filetype="image"
+             data-title="XEST Annual Management Conclave Certificate"
+             data-issuer="SXCMT"
+             data-date="2026"
+             data-desc="Certificate recognizing the role as Core Committee Member of XEST Annual Management Conclave, leading event logistics, scheduling, vendor coordination, and operational execution for 1,000+ attendees."
+             data-skills="Event Management • Leadership • Operational Coordination">
+          <div class="cert-thumb-wrapper cert-thumb-img-wrap">
+            <img src="Certificates/XEST.jpeg" alt="XEST Certificate" class="cert-thumb-img" loading="lazy">
+          </div>
+          <div>
+            <div class="cert-badge-row">
+              <span class="cert-category-tag">Leadership</span>
+              <span class="cert-year">2026</span>
+            </div>
+            <h3 class="cert-title">XEST Conclave – Core Committee</h3>
+            <p class="cert-issuer">SXCMT</p>
+            <p class="cert-skills">Event Management • Leadership</p>
+          </div>
+          <button class="btn-view-cert btn-view-file">View Certificate →</button>
+        </div>
+
+        <!-- Cert 19: Youth Parliament -->
+        <div class="corporate-card cert-card cert-card-real" data-category="leadership"
+             data-file="Certificates/Youth Parliament.pdf" data-filetype="pdf"
+             data-title="Youth Parliament Certificate"
+             data-issuer="Organizing Authority"
+             data-date="2025"
+             data-desc="Certificate of participation in a Youth Parliament program, developing legislative understanding, public speaking, debate skills, and civic awareness."
+             data-skills="Public Speaking • Debate • Civic Awareness • Leadership">
+          <div class="cert-thumb-wrapper">
+            <div class="cert-thumb-icon">🏛️</div>
+          </div>
+          <div>
+            <div class="cert-badge-row">
+              <span class="cert-category-tag">Leadership</span>
+              <span class="cert-year">2025</span>
+            </div>
+            <h3 class="cert-title">Youth Parliament</h3>
+            <p class="cert-issuer">Organizing Authority</p>
+            <p class="cert-skills">Public Speaking • Debate • Civic Awareness</p>
+          </div>
+          <button class="btn-view-cert btn-view-file">View Certificate →</button>
+        </div>
+
+        <!-- Cert 20: WhatsApp Image certificate -->
+        <div class="corporate-card cert-card cert-card-real" data-category="workshops"
+             data-file="Certificates/WhatsApp Image 2026-03-05 at 10.19.36 AM.jpeg" data-filetype="image"
+             data-title="Event Participation Certificate"
+             data-issuer="Organizing Committee"
+             data-date="2026"
+             data-desc="Certificate of active participation in an institutional event, reflecting commitment to extra-curricular engagement and campus life."
+             data-skills="Event Participation • Campus Engagement • Co-Curricular">
+          <div class="cert-thumb-wrapper cert-thumb-img-wrap">
+            <img src="Certificates/WhatsApp Image 2026-03-05 at 10.19.36 AM.jpeg" alt="Event Certificate" class="cert-thumb-img" loading="lazy">
+          </div>
+          <div>
+            <div class="cert-badge-row">
+              <span class="cert-category-tag">Events & Activities</span>
+              <span class="cert-year">2026</span>
+            </div>
+            <h3 class="cert-title">Event Participation Certificate</h3>
+            <p class="cert-issuer">Organizing Committee</p>
+            <p class="cert-skills">Campus Engagement • Co-Curricular</p>
+          </div>
+          <button class="btn-view-cert btn-view-file">View Certificate →</button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 9. FEATURED PROJECTS -->
+    <section id="projects" class="section-wrapper" data-video-visibility="medium">
+      <span class="section-kicker">Applied Portfolio</span>
+      <h2 class="section-heading">Featured Projects</h2>
+      <p class="section-lead">A selection of empirical research studies, product development initiatives, and institutional operations projects.</p>
+
+      <div class="projects-grid">
+        
+        <!-- Project 1 -->
+        <article class="corporate-card project-card"
+          data-title="Food Safety Practices Among Street Food Vendors in Patna"
+          data-role="Researcher & Project Lead"
+          data-desc="Conducted an extensive research study examining hygiene protocols, regulatory compliance, and food handling practices among local vendors in Patna. Developed a structured questionnaire, led on-ground field sampling, compiled tabular data, and presented quantitative insights on consumer safety."
+          data-skills="Primary Research, Survey Design, Data Analysis, Chart Generation, Research Reporting, Oral Presentation"
+          data-outcome="Produced an empirical 28-page research study with actionable policy suggestions for municipal health hygiene.">
+          <div>
+            <span class="project-role-badge">Researcher & Project Lead</span>
+            <h3 class="project-title">Food Safety Practices Among Street Food Vendors in Patna</h3>
+            <p class="project-desc">
+              Empirical field study evaluating food handling practices, water quality compliance, and consumer health safety among street vendors in Patna.
+            </p>
+            <div class="project-skills-list">
+              <span class="tag-pill">Field Survey</span>
+              <span class="tag-pill">Quantitative Analysis</span>
+              <span class="tag-pill">Data Interpretation</span>
+              <span class="tag-pill">Report Writing</span>
+            </div>
+          </div>
+          <div class="project-action-link">
+            <span>Read Full Case Study & Methodology →</span>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="corporate-card project-card"
+          data-title="Bihar Handicrafts: Threats & Opportunities"
+          data-role="Researcher"
+          data-desc="Conducted comprehensive ecosystem research analyzing market potential, artisan supply chain vulnerabilities, middleman margins, and digital marketing expansion opportunities for traditional Bihar handicrafts (Madhubani art, stone carving, and handloom textiles)."
+          data-skills="Market Research, Opportunity Analysis, Regional Business Research, Artisan Ecosystem Mapping"
+          data-outcome="Outlined actionable eCommerce onboarding models to disintermediate artisan sales and elevate regional brand visibility.">
+          <div>
+            <span class="project-role-badge">Researcher</span>
+            <h3 class="project-title">Bihar Handicrafts: Threats & Opportunities</h3>
+            <p class="project-desc">
+              Economic and market research study examining artisan supply chains, regional trade challenges, and modern eCommerce growth pathways.
+            </p>
+            <div class="project-skills-list">
+              <span class="tag-pill">Regional Research</span>
+              <span class="tag-pill">Opportunity Analysis</span>
+              <span class="tag-pill">Supply Chain Mapping</span>
+            </div>
+          </div>
+          <div class="project-action-link">
+            <span>Read Full Case Study & Methodology →</span>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="corporate-card project-card"
+          data-title="Slim Honey Product Development – IMZAK Organics"
+          data-role="Product Development & Market Research Intern"
+          data-desc="Spearheaded product conceptualization and formulation research for a natural health-oriented honey product during the IMZAK Organics internship. Evaluated ingredient blends, packaging ergonomics, regulatory labeling standards, and created persuasive sales presentation decks."
+          data-skills="Product Development, Ingredient Research, FMCG Packaging, Label Compliance, Market Testing"
+          data-outcome="Successfully formulated the product concept, brand deck, and label architecture now integrated into the brand's catalogue.">
+          <div>
+            <span class="project-role-badge">Product Development & Market Research Intern</span>
+            <h3 class="project-title">Slim Honey Product Development – IMZAK Organics</h3>
+            <p class="project-desc">
+              End-to-end conceptualization, packaging analysis, and catalogue presentation for an organic FMCG wellness honey brand.
+            </p>
+            <div class="project-skills-list">
+              <span class="tag-pill">FMCG Operations</span>
+              <span class="tag-pill">Packaging Specs</span>
+              <span class="tag-pill">Product Marketing</span>
+            </div>
+          </div>
+          <div class="project-action-link">
+            <span>Read Full Case Study & Methodology →</span>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="corporate-card project-card"
+          data-title="College Placement & Corporate Engagement Initiatives"
+          data-role="Corporate & Public Relations Head"
+          data-desc="Designed and executed the corporate engagement strategy for the 2025–2026 academic placement season at SXCMT. Coordinated recruiter outreach, structured pre-placement training modules, and organized high-impact corporate speaker interactions."
+          data-skills="Corporate Communication, Recruiter Outreach, Placement Strategy, Stakeholder Management"
+          data-outcome="Facilitated campus placement drives and fostered ongoing hiring partnerships with leading state and national firms.">
+          <div>
+            <span class="project-role-badge">Corporate & PR Head</span>
+            <h3 class="project-title">College Placement & Corporate Engagement Initiatives</h3>
+            <p class="project-desc">
+              Strategic corporate liaison and campus recruitment operations, organizing career conclaves and student grooming sessions.
+            </p>
+            <div class="project-skills-list">
+              <span class="tag-pill">Corporate PR</span>
+              <span class="tag-pill">Recruitment Logistics</span>
+              <span class="tag-pill">Stakeholder Relations</span>
+            </div>
+          </div>
+          <div class="project-action-link">
+            <span>Read Full Case Study & Methodology →</span>
+          </div>
+        </article>
+
+        <!-- Project 5 -->
+        <article class="corporate-card project-card" style="grid-column: span 2;"
+          data-title="XEST Event Management & Operational Coordination"
+          data-role="Core Committee Member"
+          data-desc="Collaborated as Core Committee Member for XEST, managing multi-tier logistics, vendor contracts, guest transportation, and time-critical scheduling for over 1,000 inter-college attendees and corporate evaluators."
+          data-skills="Event Management, Budget Coordination, Crisis Handling, Cross-Functional Teamwork"
+          data-outcome="Ensured zero delays across multi-day academic competitions and maintained impeccable operational decorum.">
+          <div>
+            <span class="project-role-badge">Core Committee Member</span>
+            <h3 class="project-title">XEST Event Management & Operational Coordination</h3>
+            <p class="project-desc">
+              Master planning, scheduling, stage operations, and vendor coordination for the premier annual inter-collegiate management festival.
+            </p>
+            <div class="project-skills-list">
+              <span class="tag-pill">Event Logistics</span>
+              <span class="tag-pill">Operational Execution</span>
+              <span class="tag-pill">Cross-Functional Leadership</span>
+            </div>
+          </div>
+          <div class="project-action-link">
+            <span>Read Full Case Study & Methodology →</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 9.5 PHOTO GALLERY -->
+    <section id="gallery" class="section-wrapper" data-video-visibility="medium">
+      <span class="section-kicker">Moments & Memories</span>
+      <h2 class="section-heading">Photo Gallery</h2>
+      <p class="section-lead">A visual collection of professional moments, academic milestones, events, and memorable experiences from my journey.</p>
+
+      <div class="gallery-grid" id="gallery-grid">
+
+        <!-- Gallery Image 1: Rahul Gandhi event photo -->
+        <div class="gallery-item" data-src="Certificates/Rahul Gandhi.jpg" data-caption="Meeting with Rahul Gandhi">
+          <img src="Certificates/Rahul Gandhi.jpg" alt="Meeting with Rahul Gandhi" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-caption">Meeting with Rahul Gandhi</span>
+            <span class="gallery-zoom-icon">🔍</span>
+          </div>
+        </div>
+
+        <!-- Gallery Image 2: XEST Event -->
+        <div class="gallery-item" data-src="Certificates/XEST.jpeg" data-caption="XEST Annual Management Conclave">
+          <img src="Certificates/XEST.jpeg" alt="XEST Conclave" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-caption">XEST Annual Management Conclave</span>
+            <span class="gallery-zoom-icon">🔍</span>
+          </div>
+        </div>
+
+        <!-- Gallery Image 3: D2D Event -->
+        <div class="gallery-item" data-src="Certificates/D2D.jpg" data-caption="D2D Event">
+          <img src="Certificates/D2D.jpg" alt="D2D Event" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-caption">D2D Event</span>
+            <span class="gallery-zoom-icon">🔍</span>
+          </div>
+        </div>
+
+        <!-- Gallery Image 4: Mime Performance -->
+        <div class="gallery-item" data-src="Certificates/Mime.jpeg" data-caption="Mime Performance – College Cultural Fest">
+          <img src="Certificates/Mime.jpeg" alt="Mime Performance" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-caption">Mime Performance – Cultural Fest</span>
+            <span class="gallery-zoom-icon">🔍</span>
+          </div>
+        </div>
+
+        <!-- Gallery Image 5: MyBharat Quiz -->
+        <div class="gallery-item" data-src="Certificates/MyBharat_Quiz_Certificate.png" data-caption="MyBharat Quiz Certificate">
+          <img src="Certificates/MyBharat_Quiz_Certificate.png" alt="MyBharat Quiz" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-caption">MyBharat Quiz Certificate</span>
+            <span class="gallery-zoom-icon">🔍</span>
+          </div>
+        </div>
+
+        <!-- Gallery Image 6: WhatsApp event photo -->
+        <div class="gallery-item" data-src="Certificates/WhatsApp Image 2026-03-05 at 10.19.36 AM.jpeg" data-caption="College Event">
+          <img src="Certificates/WhatsApp Image 2026-03-05 at 10.19.36 AM.jpeg" alt="College Event" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-caption">College Event – 2026</span>
+            <span class="gallery-zoom-icon">🔍</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Add More Images Placeholder Card -->
+      <div class="gallery-add-placeholder" id="gallery-add-more">
+        <div class="gallery-add-icon">＋</div>
+        <p class="gallery-add-label">More photos coming soon</p>
+        <p class="gallery-add-sub">Additional images will be added here to document professional milestones, events, and experiences.</p>
+      </div>
+    </section>
+
+    <!-- 10. PROFESSIONAL CAPABILITIES ("How I Can Contribute") -->
+    <section id="capabilities" class="section-wrapper" data-video-visibility="low">
+      <span class="section-kicker">Value Addition</span>
+      <h2 class="section-heading">How I Can Contribute</h2>
+      <p class="section-lead">Concrete operational and analytical areas where I can immediately add value to fast-paced business environments.</p>
+
+      <div class="capabilities-grid">
+        <div class="corporate-card capability-card">
+          <div class="capability-icon">🔍</div>
+          <h3 class="capability-title">Business & Market Research</h3>
+          <p class="capability-desc">Execution of structured surveys, field sampling, competitor benchmarking, customer sentiment capture, and data-backed research reporting.</p>
+        </div>
+
+        <div class="corporate-card capability-card">
+          <div class="capability-icon">📋</div>
+          <h3 class="capability-title">Business Operations Support</h3>
+          <p class="capability-desc">Administrative workflows, documentation, process compliance, vendor correspondence, inventory tracking, and daily operational assistance.</p>
+        </div>
+
+        <div class="corporate-card capability-card">
+          <div class="capability-icon">🚚</div>
+          <h3 class="capability-title">Logistics & Supply Chain Support</h3>
+          <p class="capability-desc">Core understanding of product movement, dispatch scheduling, inventory replenishment, and supplier communications.</p>
+        </div>
+
+        <div class="corporate-card capability-card">
+          <div class="capability-icon">📊</div>
+          <h3 class="capability-title">Business Analysis</h3>
+          <p class="capability-desc">Data organization, quantitative structuring, identifying operational bottlenecks, and preparing decision-making presentations.</p>
+        </div>
+
+        <div class="corporate-card capability-card">
+          <div class="capability-icon">📅</div>
+          <h3 class="capability-title">Project & Event Coordination</h3>
+          <p class="capability-desc">Comprehensive scheduling, stakeholder communication, team coordination, resource staging, and on-ground problem resolution.</p>
+        </div>
+
+        <div class="corporate-card capability-card">
+          <div class="capability-icon">🤝</div>
+          <h3 class="capability-title">Sales & Customer Coordination</h3>
+          <p class="capability-desc">Direct customer communication, order management, feedback synthesis, and building reliable client relationships.</p>
+        </div>
+
+        <div class="corporate-card capability-card" style="grid-column: span 3;">
+          <div class="capability-icon">📱</div>
+          <h3 class="capability-title">Digital Marketing & Content Development</h3>
+          <p class="capability-desc">Product marketing collateral, catalogue layout, Canva-based presentation assets, and basic digital content structuring for commercial engagement.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11. EDUCATION -->
+    <section id="education" class="section-wrapper">
+      <span class="section-kicker">Academic Qualifications</span>
+      <h2 class="section-heading">Education</h2>
+
+      <div class="education-cards-grid">
+        <div class="corporate-card edu-card">
+          <div class="edu-year">2023–2026</div>
+          <h3 class="edu-degree">Bachelor of Business Administration (BBA)</h3>
+          <p class="edu-school">St. Xavier’s College of Management & Technology (SXCMT), Patna</p>
+          <p class="edu-notes">
+            <strong>Specialization:</strong> International Business<br>
+            <strong>Core Modules:</strong> International Business, Management, Finance, Marketing, Operations, Economics, Business Strategy.
+          </p>
+        </div>
+
+        <div class="corporate-card edu-card">
+          <div class="edu-year">2023</div>
+          <h3 class="edu-degree">Class 12 (Senior Secondary)</h3>
+          <p class="edu-school">ICSE Curriculum</p>
+          <p class="edu-notes"><strong>Stream:</strong> Physics, Chemistry, Mathematics (PCM)<br>Strong analytical & quantitative foundation.</p>
+        </div>
+
+        <div class="corporate-card edu-card">
+          <div class="edu-year">2021</div>
+          <h3 class="edu-degree">Class 10 (Secondary)</h3>
+          <p class="edu-school">ICSE Curriculum</p>
+          <p class="edu-notes">Comprehensive core academic grounding with distinction across languages, sciences, and mathematics.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 12. CAREER VISION -->
+    <section class="section-wrapper" data-video-visibility="high">
+      <div class="corporate-card vision-banner-card">
+        <span class="section-kicker">Future Aspirations</span>
+        <h2 class="vision-heading">Building Toward the Next Chapter</h2>
+        <p class="vision-statement">
+          “My long-term goal is to build an international career in business operations, consulting, or management, pursue an MBA, and eventually lead cross-functional teams and high-impact business projects.”
+        </p>
+
+        <div class="vision-milestones">
+          <span class="vision-step">Learn</span>
+          <span class="vision-arrow">→</span>
+          <span class="vision-step">Contribute</span>
+          <span class="vision-arrow">→</span>
+          <span class="vision-step">Grow</span>
+          <span class="vision-arrow">→</span>
+          <span class="vision-step">Lead</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 13. CONTACT ("Let's Connect") -->
+    <section id="contact" class="section-wrapper" data-video-visibility="high">
+      <span class="section-kicker">Get in Touch</span>
+      <h2 class="section-heading">Let's Connect</h2>
+      <p class="section-lead">Open to professional opportunities, early-career roles, research collaborations, and conversations around business operations, international business, logistics, healthcare, and management.</p>
+
+      <div class="contact-container-grid">
+        
+        <div class="corporate-card contact-info-card">
+          <div>
+            <h3 style="font-family: 'Outfit', sans-serif; font-size: 20px; font-weight: 700; color: var(--text-heading); margin-bottom: 8px;">Direct Contact Information</h3>
+            <p style="font-size: 14px; color: var(--text-muted);">Reach out directly via email or connect on LinkedIn for professional inquiries.</p>
+
+            <ul class="contact-channels-list">
+              <li class="contact-channel-item">
+                <span class="channel-icon">✉️</span>
+                <div>
+                  <span class="channel-label">Email Address</span>
+                  <div><a href="mailto:usmaniaatir721@gmail.com" class="channel-val">usmaniaatir721@gmail.com</a></div>
+                </div>
+              </li>
+
+              <li class="contact-channel-item">
+                <span class="channel-icon">💼</span>
+                <div>
+                  <span class="channel-label">LinkedIn Profile</span>
+                  <div><a href="https://linkedin.com/in/mdaatirusmani2005" target="_blank" rel="noopener" class="channel-val">linkedin.com/in/mdaatirusmani2005</a></div>
+                </div>
+              </li>
+
+              <li class="contact-channel-item">
+                <span class="channel-icon">📞</span>
+                <div>
+                  <span class="channel-label">Phone / WhatsApp</span>
+                  <div><a href="tel:+919931885195" class="channel-val">+91 9931885195</a></div>
+                </div>
+              </li>
+
+              <li class="contact-channel-item">
+                <span class="channel-icon">📍</span>
+                <div>
+                  <span class="channel-label">Current Location</span>
+                  <div class="channel-val">Patna, Bihar, India</div>
+                </div>
+              </li>
+
+              <li class="contact-channel-item">
+                <span class="channel-icon">📸</span>
+                <div>
+                  <span class="channel-label">Social Profile</span>
+                  <div><a href="https://instagram.com/usmani.ma" target="_blank" rel="noopener" class="channel-val">@usmani.ma</a></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact-actions-row">
+            <a href="mailto:usmaniaatir721@gmail.com" class="btn-primary">
+              <span>Email Me</span>
+              <span>✉️</span>
+            </a>
+            <a href="https://linkedin.com/in/mdaatirusmani2005" target="_blank" rel="noopener" class="btn-secondary">
+              <span>Connect on LinkedIn</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Inquiry Note Card -->
+        <div class="corporate-card contact-form-card">
+          <h3 style="font-family: 'Outfit', sans-serif; font-size: 20px; font-weight: 700; color: var(--text-heading); margin-bottom: 8px;">Send a Direct Message</h3>
+          <p style="font-size: 13.5px; color: var(--text-muted); margin-bottom: 20px;">Feel free to drop a quick message and I will respond promptly.</p>
+
+          <form id="contact-form" onsubmit="event.preventDefault(); window.location.href = 'mailto:usmaniaatir721@gmail.com?subject=Inquiry%20from%20' + encodeURIComponent(document.getElementById('sender-name').value) + '&body=' + encodeURIComponent(document.getElementById('sender-msg').value);">
+            <div class="form-group">
+              <label class="form-label" for="sender-name">Your Name</label>
+              <input type="text" id="sender-name" class="form-input" placeholder="e.g. Sarah Jenkins" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="sender-email">Your Email Address</label>
+              <input type="email" id="sender-email" class="form-input" placeholder="e.g. sarah@organization.com" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="sender-msg">Message / Inquiry</label>
+              <textarea id="sender-msg" class="form-textarea" placeholder="How can we collaborate or connect?" required></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; margin-top: 10px;">
+              <span>Send Message</span>
+              <span>→</span>
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-top-row">
+        <div>
+          <div class="footer-name">Md. Aatir Usmani</div>
+          <p class="footer-tagline">BBA in International Business • Business Operations • Research • Leadership</p>
+        </div>
+
+        <ul class="footer-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#capabilities">Capabilities</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom-row">
+        <p>© 2026 Md. Aatir Usmani. All rights reserved.</p>
+        <button id="back-to-top" class="btn-back-top">↑ Back to Top</button>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- =========================================================================
+       Interactive Modals (Project Details & Credential Viewer)
+       ========================================================================= -->
+  <div id="project-modal" class="modal-backdrop" aria-hidden="true" role="dialog">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="project-modal-close" aria-label="Close Project Modal">✕</button>
+      <span class="section-kicker" id="modal-project-role">Role</span>
+      <h3 style="font-family: 'Outfit', sans-serif; font-size: 24px; font-weight: 700; color: var(--text-heading); margin: 6px 0 14px;" id="modal-project-title">Project Title</h3>
+      <p style="font-size: 14.5px; line-height: 1.7; color: var(--text-body); margin-bottom: 20px;" id="modal-project-desc">Description</p>
+      
+      <div style="background: var(--surface-card); padding: 16px; border-radius: 12px; border: 1px solid var(--card-border); margin-bottom: 20px;">
+        <h4 style="font-size: 12px; font-weight: 700; text-transform: uppercase; color: var(--accent-tan); margin-bottom: 6px;">Key Skills & Methodologies Applied</h4>
+        <p style="font-size: 13.5px; color: var(--text-heading);" id="modal-project-skills">Skills list</p>
+      </div>
+
+      <div style="background: rgba(138, 87, 56, 0.08); padding: 16px; border-radius: 12px; border: 1px solid var(--card-border);">
+        <h4 style="font-size: 12px; font-weight: 700; text-transform: uppercase; color: var(--accent-tan); margin-bottom: 6px;">Core Outcome & Contribution</h4>
+        <p style="font-size: 13.5px; color: var(--text-heading);" id="modal-project-outcome">Outcome details</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="cert-modal" class="modal-backdrop" aria-hidden="true" role="dialog">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="cert-modal-close" aria-label="Close Certificate Modal">✕</button>
+      <span class="section-kicker" id="modal-cert-cat">Category</span>
+      <h3 style="font-family: 'Outfit', sans-serif; font-size: 24px; font-weight: 700; color: var(--text-heading); margin: 6px 0 6px;" id="modal-cert-title">Certificate Title</h3>
+      <p style="font-size: 13.5px; font-weight: 600; color: var(--accent-tan); margin-bottom: 14px;" id="modal-cert-meta">Issuer • Year</p>
+      <p style="font-size: 14.5px; line-height: 1.7; color: var(--text-body); margin-bottom: 20px;" id="modal-cert-desc">Detailed certificate description.</p>
+      
+      <div style="background: var(--surface-card); padding: 16px; border-radius: 12px; border: 1px solid var(--card-border);">
+        <h4 style="font-size: 12px; font-weight: 700; text-transform: uppercase; color: var(--accent-tan); margin-bottom: 6px;">Validated Competencies</h4>
+        <p style="font-size: 13.5px; color: var(--text-heading);" id="modal-cert-skills">Skills list</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- File Viewer Modal (PDF & Image Lightbox) -->
+  <div id="file-viewer-modal" class="modal-backdrop file-viewer-backdrop" aria-hidden="true" role="dialog" aria-label="File Viewer">
+    <div class="file-viewer-dialog">
+      <div class="file-viewer-header">
+        <h3 class="file-viewer-title" id="file-viewer-title">Certificate</h3>
+        <div class="file-viewer-actions">
+          <a id="file-viewer-download" class="file-viewer-btn" download target="_blank" rel="noopener">⬇ Download</a>
+          <button class="modal-close-btn" id="file-viewer-close" aria-label="Close Viewer">✕</button>
+        </div>
+      </div>
+      <div class="file-viewer-body" id="file-viewer-body">
+        <!-- Filled dynamically: iframe for PDF, img for image -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Gallery Image Lightbox -->
+  <div id="gallery-lightbox" class="modal-backdrop gallery-lightbox-backdrop" aria-hidden="true" role="dialog">
+    <div class="gallery-lightbox-dialog">
+      <button class="modal-close-btn gallery-lb-close" id="gallery-lb-close" aria-label="Close Gallery">✕</button>
+      <button class="gallery-lb-nav gallery-lb-prev" id="gallery-lb-prev" aria-label="Previous">‹</button>
+      <div class="gallery-lb-img-wrap">
+        <img id="gallery-lb-img" src="" alt="Gallery image" class="gallery-lb-img">
+        <p class="gallery-lb-caption" id="gallery-lb-caption"></p>
+      </div>
+      <button class="gallery-lb-nav gallery-lb-next" id="gallery-lb-next" aria-label="Next">›</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+# Large archives (>100MB rejected by GitHub)
+video_frames_30fps_lossless.zip
+
+# OS generated files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+.DS_Store
